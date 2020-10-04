@@ -40,7 +40,7 @@
                                 <rect key="frame" x="77" y="467" width="288" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZd-SA-Jwu">
                                 <rect key="frame" x="110" y="557" width="47" height="30"/>
@@ -79,7 +79,7 @@
         <!--Feed View Controller-->
         <scene sceneID="92X-W7-Gr3">
             <objects>
-                <viewController id="zyO-Df-mjG" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController wantsFullScreenLayout="YES" id="zyO-Df-mjG" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wMF-EL-2Or">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
